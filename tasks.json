@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Grocery Shop",
+            "time": "60 minutes",
+            "description": "Go to Aldi & do the weekly shop.",
+            "items_needed": "Grocery list, wallet and bags."
+        },
+        {
+            "id": 2,
+            "name": "Laundry",
+            "time": "120 minutes",
+            "description": "Wash clothes & towels",
+            "items_needed": "Laundry soap, clothes & towels."
+        }
+    ]
+}
