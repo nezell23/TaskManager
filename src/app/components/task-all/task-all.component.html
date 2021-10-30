@@ -1,1 +1,21 @@
-<p>task-all works!</p>
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container">
+        <h1 class="display-4">My Tasks</h1>
+        <p class="lead">Manage your tasks in list-view, or click on a task to view details, edit, or delete.</p>
+    </div>
+</div>
+
+<div class="ol-container">
+    <ol>
+        <li *ngFor="let task of allTasks">
+            <div class="row">
+                <div class="col-11">
+                    <a [routerLink]="['/tasks', task.id]">{{task.name}}</a>
+                </div>
+                <div class="col-1">
+                    <button class="btn btn-sm" (click)="deleteTask(task.id)">Delete</button>
+                </div>
+            </div>
+        </li>
+    </ol>
+</div>

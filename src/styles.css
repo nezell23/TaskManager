@@ -3,3 +3,23 @@ body {
     font-weight: bold;
     font-size: larger;
 }
+.main-container {
+    text-align: center;
+    padding: 0%;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background-color: #464a4b;
+    color: #d7e2ec;
+    transition: background-color 0.3s;
+    margin: 1%;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+}
+.ol-container {
+    text-align: center;
+}
