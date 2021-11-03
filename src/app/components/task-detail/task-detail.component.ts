@@ -23,6 +23,7 @@ export class TaskDetailComponent implements OnInit {
     this.tasksService.getTaskById(this.id).subscribe(response => {
       this.myTask = response;
     });
+    
   }
 
   deleteTask(id: number): void {
