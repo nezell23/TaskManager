@@ -1,1 +1,27 @@
-<p>task-detail works!</p>
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container">
+        <h1 class="display-4"> {{myTask.name}} </h1>
+        <p class="lead">It's all in the details!</p>
+    </div>
+</div>
+
+<div class="container">
+    <div>
+        <div>Description:</div>
+        <span>{{myTask.description}}</span>
+    </div>
+    <br>
+    <div>
+        <div>Time to complete:</div>
+        <span>{{myTask.time}}</span>
+    </div>
+    <br>
+    <div>
+        <div>Items needed to complete:</div>
+        <span>{{myTask.items_needed}}</span>
+    </div>
+    <br>
+    <a [routerLink]="['/tasks-edit', myTask.id]"><button class="btn btn-lg" type="button">Edit</button></a>
+    <button class="btn btn-lg" type="button" (click)="deleteTask(myTask.id)">Delete</button>
+</div>
+
