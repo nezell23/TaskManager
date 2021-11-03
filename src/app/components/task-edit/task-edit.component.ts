@@ -26,7 +26,7 @@ export class TaskEditComponent implements OnInit {
 
   }
 
-  saveTask() {
+  saveTask(): void {
     this.tasksService.editTask(this.editTask, this.id).subscribe(response => {
       this.router.navigate(['tasks']);
       alert("Task Updated Successfully!");

@@ -6,6 +6,13 @@
       "time": "60 minutes",
       "description": "Go to Aldi & do the weekly shop.",
       "items_needed": "Grocery list, wallet and bags. UPDATED"
+    },
+    {
+      "name": "My New Task",
+      "description": "Awesomeness",
+      "time": "100",
+      "items_needed": "Everything!",
+      "id": 2
     }
   ]
 }
