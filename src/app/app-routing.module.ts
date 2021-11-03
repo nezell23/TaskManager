@@ -8,8 +8,8 @@ import { TaskEditComponent } from './components/task-edit/task-edit.component';
 const routes: Routes = [
   {path: '', redirectTo: 'tasks', pathMatch: 'full'},
   {path: 'tasks', component: TaskAllComponent},
-  {path: 'tasks/add', component: TaskAddComponent},
-  {path: 'tasks/edit/:id', component: TaskEditComponent},
+  {path: 'tasks-add', component: TaskAddComponent},
+  {path: 'tasks-edit/:id', component: TaskEditComponent},
   {path: 'tasks/:id', component: TaskDetailComponent}
 ];
 

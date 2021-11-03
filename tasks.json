@@ -6,20 +6,6 @@
       "time": "60 minutes",
       "description": "Go to Aldi & do the weekly shop.",
       "items_needed": "Grocery list, wallet and bags."
-    },
-    {
-      "id": 2,
-      "name": "Grocery Shop",
-      "time": "60 minutes",
-      "description": "Go to Aldi & do the weekly shop.",
-      "items_needed": "Grocery list, wallet and bags."
-    },
-    {
-      "id": 3,
-      "name": "Grocery Shop",
-      "time": "60 minutes",
-      "description": "Go to Aldi & do the weekly shop.",
-      "items_needed": "Grocery list, wallet and bags."
     }
   ]
 }
