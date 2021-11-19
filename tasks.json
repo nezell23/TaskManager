@@ -1,18 +1,25 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "name": "Grocery Shopping and some other stuff and things",
-      "time": "60 minutes",
+      "name": "Grocery Shopping",
       "description": "Go to Aldi & do the weekly shop.",
-      "items_needed": "Grocery list, wallet and bags. UPDATED"
+      "time": "1.5 hours",
+      "items_needed": "Wallet, grocery bags, grocery list",
+      "id": 1
     },
     {
-      "name": "My New Task",
-      "description": "Awesomeness",
-      "time": "100",
-      "items_needed": "Everything!",
+      "name": "Laundry",
+      "description": "Wash & dry my clothes, fold & put away",
+      "time": "2 hours",
+      "items_needed": "Clothes, laundry soap",
       "id": 2
+    },
+    {
+      "name": "Walk the dog",
+      "description": "Take Spot for a walk through the park.",
+      "time": "30 minutes",
+      "items_needed": "Spot, leash, sunglasses",
+      "id": 3
     }
   ]
 }
