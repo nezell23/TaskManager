@@ -6,6 +6,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+To launch the project, first install & launch the mock JSON server:
+
+Run `npm install json-server -g` to install the mock JSON server
+Run `json-server --watch tasks.json` to launch the JSON server
+
+Then you can launch the project:
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
